@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>foo bar baz</title>
+    <style>
+      .header-title {
+        font-size: 14px;
+        font-weight: normal;
+      }
+      #result {
+        font-size: 14px;
+        height: 5rem;
+        width: 24rem;
+        text-align: top;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="header-title">foo bar baz</h1>
+    </header>
+    <div class="root">
+      <textarea id="result" rows="4" cols="60" type="text"></textarea>
+      <button id="copy">Copy</button>
+      <script src="popup.js"></script>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

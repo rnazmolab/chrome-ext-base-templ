@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "foo bar baz",
+  "version": "0.0.1",
+  "description": "long comment",
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  }
+}
